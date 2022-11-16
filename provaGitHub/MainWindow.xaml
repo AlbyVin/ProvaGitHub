@@ -10,8 +10,8 @@
         <Button x:Name="bottone1" Content="somma" HorizontalAlignment="Left" Height="125" Margin="441,145,0,0" VerticalAlignment="Top" Width="198" Click="bottone1_Click"/>
         <Label x:Name="risultato1" Content="risultato" HorizontalAlignment="Left" Height="47" Margin="411,328,0,0" VerticalAlignment="Top" Width="206"/>
         <Label Content="calcolatrice" HorizontalAlignment="Left" Height="66" Margin="199,31,0,0" VerticalAlignment="Top" Width="306"/>
-        <TextBox x:Name="txtBox1" HorizontalAlignment="Left" Height="40" Margin="85,194,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="165"/>
-        <TextBox x:Name="txtBox2" HorizontalAlignment="Left" Height="40" Margin="85,285,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="165"/>
+        <TextBox x:Name="txtBox1" HorizontalAlignment="Left" Height="40" Margin="85,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"/>
+        <TextBox x:Name="txtBox2" HorizontalAlignment="Left" Height="40" Margin="85,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"/>
 
     </Grid>
 </Window>
