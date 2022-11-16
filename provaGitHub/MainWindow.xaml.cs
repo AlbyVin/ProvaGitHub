@@ -24,5 +24,24 @@ namespace provaGitHub
         {
             InitializeComponent();
         }
+
+        private void bottone1_Click(object sender, RoutedEventArgs e)
+        {
+
+            Somma somma = new Somma();
+
+            double n1;
+            double n2;
+            double SOMMA;
+
+            n1 = Convert.ToDouble(txtBox1.Text);
+            n2 = Convert.ToDouble(txtBox2.Text);
+
+
+            SOMMA = somma.calcoloSomma(n1, n2);
+
+            risultato1.Content = SOMMA;
+
+        }
     }
 }
